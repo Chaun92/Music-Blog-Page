@@ -1,0 +1,57 @@
+@import url("topnav.css");
+@import url("@media.css");
+  
+
+* {box-sizing: border-box}
+
+.body{
+  display: grid;
+  font-family: 'gluten', 'alfa slab one';
+    background-color:rgb(219, 248, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background-color: burlywood;
+  padding: 16px;
+  font-family: 'gluten', 'alfa slab one';
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: grid;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+  }
+
+
+hr {
+  border: 1px dodgerblue;
+  margin-bottom: 25px;
+  
+  }
+  
+ 
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+ 
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .signin {
+   text-align: center;
+   background-color: aliceblue;
+  }
+
+  
